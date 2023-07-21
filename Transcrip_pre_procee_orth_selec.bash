@@ -173,7 +173,7 @@ done
 ml hpc-env/6.4
 ml BLAST+/2.10.0-intel-2018a
 
-# Create Araport database
+# Create SS database
 
 makeblastdb -in Orth_Sel_forSalm_SS.fasta -out Orth_Sel_forSalm_SSdb -dbtype nucl
 
